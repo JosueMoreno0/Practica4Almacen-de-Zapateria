@@ -1,0 +1,39 @@
+.nav,
+.sectionD,
+.sectionI,
+.siderbar,
+.footer {
+ margin: 0 1.5% 24px 1.5%;
+ background-color: black;
+}
+
+.nav {
+ width: 100%;
+ clear: both;
+ background-color: rgb(19, 98, 235);
+ text-align: center;
+}
+
+.sectionD {
+ float: right;
+ width: 20%;
+ background-color: rgb(130, 212, 86);
+}
+
+.sectionI {
+    float: left;
+    width: 20%;
+    background-color: rgb(130, 212, 86);
+   }
+
+.siderbar {
+ float: right;
+ width: 30%;
+ background-color: rgb(253, 18, 245);
+}
+
+.footer {
+ clear: both;
+ margin-bottom: 0;
+ background-color: rgb(221, 32, 22);
+}

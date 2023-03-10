@@ -1,0 +1,100 @@
+.nav,
+.sectionD,
+.sectionI,
+.siderbar,
+.footer {
+ margin: 0 1% 24px 1%;
+ background-color: black;
+}
+
+.nav {
+ width: 97%;
+ clear: both;
+ background-color: rgb(19, 98, 235);
+ text-align: center;
+}
+
+.sectionD {
+ float: right;
+ width: 20%;
+ height: max-content;
+ background-color: rgb(130, 212, 86);
+}
+
+.sectionI {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(191, 104, 47);
+   }
+
+.siderbar {
+ float: right;
+ width: 30%;
+ background-color: rgb(253, 18, 245);
+}
+
+.footer {
+ clear: both;
+ margin-bottom: 0;
+ background-color: rgb(221, 32, 22);
+}
+
+
+
+
+
+
+.boton1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+    .boton1:hover span{
+      padding-right: 50px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+      .boton1 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      .boton1 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+
+      .boton1:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+      label {
+        display: block;
+        margin: .5em 0 0 0;
+        }
+
+      .btn {
+        display: block;
+        margin: 1em 0;
+        }

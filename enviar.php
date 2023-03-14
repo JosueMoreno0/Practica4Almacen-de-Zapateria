@@ -24,7 +24,7 @@
         
 </head>
 <body>
-    <h1> REGISTRO</h1>
+    <h1> REGISTRO.</h1>
     <p>Codigo: <?php echo $codigo;?></p>
     <p>Nombre: <?php echo $nombre;?></p>
     <p>Color: <?php echo $color;?></p>
